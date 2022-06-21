@@ -35,7 +35,7 @@ const removeElement = (id) => {
                     }
                 } )
                 
-                row.children[0].setAttribute('id',id)
+                row.children[0]
                 row.addEventListener('dblclick',()=>{
                     row.getAttribute('id');
                     input.classList.add('list__complete');
